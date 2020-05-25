@@ -1,0 +1,45 @@
+
+<view class="weui-form__text-area titles">
+			<h2 class="weui-form__title">审核流程</h2>
+		</view>
+    
+	<view class="weui-form__text-area titless">
+			<h2 >第一步</h2>
+			<view class="weui-form__desc">下载合同</view>
+		</view>
+<button  class="weui-btn weui-btn_primary" bindtap='downLoad'>
+  下载合同
+</button>
+
+ 
+
+
+
+	<view class="weui-form__text-area titless">
+			<h4 >第二步</h4>
+			<view class="weui-form__desc">上传合同</view>
+		</view>
+<button   bindtap='getImg3' class="weui-btn weui-btn_primary">
+  选择图片
+</button>
+		
+<view class="imageSizi">
+<image src='{{imgpath3}}'></image>
+</view>
+
+
+<button  class="weui-btn weui-btn_primary" bindtap='uploadContarct'>
+  确定上传
+</button>
+
+	<view wx:if="{{updataImage3Flog}}">
+	<view class="weui-progress">
+			<view class="weui-progress__bar">
+				<view class="weui-progress__inner-bar js_progress" style="width: {{updataImage3}}%;"></view>
+			</view>
+			<a class="weui-progress__opr">
+				<i class="weui-icon-cancel"></i>
+			</a>
+		</view>
+</view>
+

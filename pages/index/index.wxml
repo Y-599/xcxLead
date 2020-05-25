@@ -1,0 +1,66 @@
+<!--index.wxml-->
+
+<view class="background">
+<view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="savaInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" ></image>
+      <a class="userinfo-nickname  weui-btn_default palse" bindtap="isnot">{{motto}}</a>
+            <a class="weui-btn_default money" >积分：{{num}}</a>
+
+    </block>
+  </view>
+</view>
+
+<view class="fadeIn" wx:if="{{iosDialog}}">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+          <view  >
+            <i class="weui-icon-info weui-icon_msg"></i>
+          </view>
+            <view class="weui-dialog__hd">
+            <strong class="weui-dialog__title">未登录状态</strong></view>
+            <view class="weui-dialog__bd a">登录成功后才能开始你的赚钱之路哦~</view>
+            <a class="weui-btn weui-btn_primary buttons" bindtap ="logined">请登录</a>
+            <view class="aini" bindtap = "returns">暂不登录</view>   
+        </view>
+    </view> 
+</view>
+
+
+
+
+
+
+
+
+
+
+<view class="weui-form__text-area xaun ">
+			<h2 class="weui-form__title">手机主题风格</h2>
+<view class="xuxian"></view>
+</view>
+<view  class='bg'>
+<image src='/image/ki.jpg' ></image>
+</view><view class="jianju"></view>
+
+
+ <view class='bg'>
+<image src='/image/li.jpg'  ></image>
+</view>
+<view class="jianju"></view>
+
+<view  class='bg'>
+<image src='/image/pi.jpg'  ></image>
+</view>
+<view class="jianju"></view>
+
+<view  class='bg'>
+<image src='/image/ti.jpg'  ></image>
+</view>
+<view class="jianju"></view>
+<view  class='bg'>
+<image src='/image/yi.jpg' ></image>
+</view>
+<view class="jianju"></view>

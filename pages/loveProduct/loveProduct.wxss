@@ -1,0 +1,56 @@
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: #E6F3F9;
+}
+.th { 
+  width: 40%;
+  justify-content: center;
+  background: green;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.td{
+  font-size: 30rpx;
+} 
+.button_size{ 
+   font-size: 28rpx;
+   width:37%;
+ }
+ .productName{
+      font-size: 25rpx;
+
+ }
+ .backcolor{
+   background-color: grey
+ }
+.text_color{
+  height: 30px;
+  color: #000000;
+}
+.font_style{
+margin-top: 200rpx;
+color:  darkgray;
+width:  720rpx;
+text-align: center
+
+
+}

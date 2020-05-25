@@ -1,0 +1,88 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.palse{
+  border: 1px solid green;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+  border:5rpx solid green
+ 
+}
+
+.userinfo-nickname {
+
+  font-size: 23rpx;
+}
+
+.background{
+  background-color: #333333;
+  height: 300rpx;
+ 
+}
+.weui-dialog__hd{
+  padding: 10px 10px  ;
+}
+.weui-dialog__bd{
+margin-bottom: 20px;
+}
+
+.weui-icon-info{
+  color: red;
+}
+.a{
+  font-size: 15px;
+}
+
+.weui-dialog{
+  padding-bottom: 20px;
+}
+
+.buttons{
+  width: 100px;
+}
+.aini{
+    margin-bottom: 20px;
+    text-decoration:underline;
+  }
+.money{
+  text-align: center;
+  margin-top: 20rpx;
+  height: 60rpx;
+  width: 200rpx;
+}
+
+
+.bg{
+   
+   display:flex;                    
+ justify-content: center; 
+
+}
+.bg image{
+  padding-bottom: 20prx;
+  height: 400rpx;
+    width: 730rpx;
+    border-radius: 2%;
+}
+.xaun{
+  margin-top: 15rpx;
+
+}
+.xuxian{
+  width: 100%;
+margin-bottom: 30rpx;
+margin-top: 15rpx;
+
+border-bottom: 5rpx solid  #000000;
+}
+.jianju{
+  height: 30rpx;
+}

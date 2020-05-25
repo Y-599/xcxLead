@@ -1,0 +1,95 @@
+<!--收益明细-->
+
+
+<block >
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">作品名称</view>
+    <view class="th">上次收益</view>
+    <view class="th ">收益累计</view>   
+    <view class="th ">结算收益</view>   
+
+
+  </view>
+  <block wx:if="{{showData}}" wx:for="{{listData}}" wx:key="index">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td productName">{{item.production}}</view>
+      <view class="td productName">{{item.earnYear}}</view>
+      <view class="td productName">{{item.addearnYear}}</view>
+      <view class="td weui-btn weui-btn_mini weui-btn_primary button_size {{backcolor}}"  id="{{index}}" bindtap="iosjesuan">{{jiesuan}}</view>
+
+      
+    
+    </view>
+    <view class="tr" wx:else>
+      <view class="td productName">{{item.production}}</view>
+      <view class="td productName">{{item.earnYear}}</view>
+      <view class="td productName">{{item.addearnYear}}</view>
+      <view class="td weui-btn weui-btn_mini weui-btn_primary button_size {{backcolor}}"   id="{{index}}" bindtap="iosjesuan">{{jiesuan}}</view> 
+ 
+
+
+    </view>
+  </block>
+</view>
+
+</block>
+
+<view class="fadeIn" wx:if="{{iosDialog}}">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><strong class="weui-dialog__title">收益历史查询</strong></view>
+            
+            
+            
+   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <a class="weui-btn weui-btn_default size_daxiao ">作品选择</a>
+    </picker>
+    <text class="weui-btn weui-btn_default size_daxiao text_color">{{product_name}}</text>
+   <picker mode="date" value="{{date}}" start="1000-09-01" end="9999-09-01" bindchange="bindDateChange">
+    <a class="weui-btn weui-btn_default size_daxiao">开始时间</a>
+     </picker>
+         <text class="weui-btn weui-btn_default size_daxiao text_color">{{date_begin}}</text>
+
+   <picker mode="date" value="{{date}}" start="1000-09-01" end="9999-09-01" bindchange="bindTimeChange">
+     <a class="weui-btn weui-btn_default size_daxiao">结束时间</a>
+     </picker> 
+                <text class="weui-btn weui-btn_default size_daxiao text_color">{{date_end}}</text>
+
+            
+
+            
+            <view class="weui-dialog__ft">
+                <a class="weui-dialog__btn weui-dialog__btn_default" bindtap="checkEarns">点击查询</a>
+                <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="returns">取消</a>
+            </view>
+        </view>
+    </view> 
+
+<xuanfukuang wx:if="{{showxuanfu}}" bindtap="begina"></xuanfukuang>
+
+
+
+
+<view class="fadeIn" wx:if="{{iosjesuan}}">
+             <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><strong class="weui-dialog__title">结算页面</strong></view>
+            <view class="weui-dialog__bd">当提出结算收益时，我们的工作人员将在三到五天之内进行审核并结算</view>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            <view class="weui-dialog__ft">
+                <a class="weui-dialog__btn weui-dialog__btn_default" bindtap="closeMoney">确认结算</a>
+                <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="returnss">取消</a>
+            </view>
+        </view>
+    </view>            
+    
+     <view wx:if="{{showWarn}}" class="font_style">很抱歉，目前暂无你上传作品的收益详情~~</view>

@@ -1,0 +1,5 @@
+<view class="view" style=" top:{{top}}px;left:{{left}}px;margin: 0% 0rpx 0rpx 0%;" bindtouchmove="setTouchMove">
+    <view>
+    <image style="height:120rpx;width:120rpx;border-radius:50%" src="/image/icon_tabbar.png"></image>
+    </view>
+  </view>

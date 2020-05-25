@@ -1,0 +1,35 @@
+<block>
+
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">作品名称</view>
+      <view class="th ">审核状态</view>
+      <view class="th ">审核结果</view>
+  </view>
+  <block  wx:if="{{showData}}" wx:for="{{listData}}" wx:key="index">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+       <view class="td">{{item.production}}</view>
+          <view class="td">{{item.productCheck}}</view>
+             <view class="td weui-btn weui-btn_mini weui-btn_primary button_size"  id="{{index}}" bindtap="iosjesuan">详情</view>
+    </view>
+    <view class="tr" wx:else>
+    <view class="td">{{item.production}}</view>
+          <view class="td">{{item.productCheck}}</view>
+             <view class="td weui-btn weui-btn_mini weui-btn_primary button_size"  id="{{index}}" bindtap="iosjesuan">详情</view>
+    </view>
+  </block>
+</view>
+</block>
+
+            <view wx:if="{{showWarn}}" class="font_style">很抱歉，目前暂无你上传作品的审核进度~~</view>
+
+ <view class="fadeIn" wx:if="{{isdetails}}">
+        <view class="weui-mask"></view>
+        <view class="weui-dialog">
+            <view class="weui-dialog__hd"><strong class="weui-dialog__title">审核失败原因</strong></view>
+            <view class="weui-dialog__bd">{{details}}</view>
+            <view class="weui-dialog__ft">
+                <a class="weui-dialog__btn weui-dialog__btn_primary" bindtap="close">好的</a>
+            </view>
+        </view>
+    </view>

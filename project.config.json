@@ -1,0 +1,204 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": true,
+		"autoAudits": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"bundle": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.5",
+	"appid": "wx6e36c7bbb3f754e7",
+	"projectname": "my_part",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/rex/rex",
+					"pathName": "pages/rex/rex",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/allTelInfo/allTelInfo",
+					"pathName": "pages/allTelInfo/allTelInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/audit/audit",
+					"pathName": "pages/audit/audit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/audit/audit",
+					"pathName": "pages/audit/audit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/login/login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/myInfo/myInfo",
+					"pathName": "pages/myInfo/myInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/contract/contract",
+					"pathName": "pages/contract/contract",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/forgetPassword/forgetPassword",
+					"pathName": "pages/forgetPassword/forgetPassword",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/earnings/earnings",
+					"pathName": "pages/earnings/earnings",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/allTelInfo/allTelInfo",
+					"pathName": "pages/allTelInfo/allTelInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/checkHistry/checkHistry",
+					"pathName": "pages/checkHistry/checkHistry",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/chage_password/chage_password",
+					"pathName": "pages/chage_password/chage_password",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/earnings/earnings",
+					"pathName": "pages/earnings/earnings",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/loveProduct/loveProduct",
+					"pathName": "pages/loveProduct/loveProduct",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/aduil/aduil",
+					"pathName": "pages/aduil/aduil",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/contract/contract",
+					"pathName": "pages/contract/contract",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/aduil/aduil",
+					"pathName": "pages/aduil/aduil",
+					"scene": null
+				}
+			]
+		}
+	}
+}

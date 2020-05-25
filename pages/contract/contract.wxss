@@ -1,0 +1,24 @@
+.imageSizi {
+ display: flex;
+  flex-direction: row;
+  margin-top: 6rpx;
+  justify-content: center; 
+  background-color: white; 
+
+   }
+   .imageSizi image {
+height: 200rpx;
+width: 400rpx;
+
+   }
+
+.titles{
+padding-bottom: 100rpx;
+}
+.titless{
+padding-top: 100rpx;
+}
+
+.weui-footer{
+  height: 100rpx
+}

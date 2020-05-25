@@ -1,0 +1,8 @@
+.view{
+position: fixed ; /*相对定位*/
+height:120rpx;
+width:120rpx;
+border-radius:50%;
+color: white;
+text-align: center;
+}

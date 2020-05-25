@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/allTelInfo/allTelInfo",
+    "pages/rex/rex",
+    "pages/earnings/earnings",
+    "pages/login/login",
+    "pages/contract/contract", 
+     "pages/aduil/aduil",
+    "pages/forgetPassword/forgetPassword",
+    "pages/myInfo/myInfo",
+    "pages/chage_password/chage_password",
+    "pages/logs/logs",
+    "pages/audit/audit",
+    "pages/chagneinfo/changeinfo",
+     "pages/percenter/percenter",
+    "pages/checkHistry/checkHistry",
+    "pages/allInfo/allInfo",
+      "pages/loveProduct/loveProduct"
+              
+     
+    
+
+        
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "云科兼职",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#000000"
+
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      
+      "text": "首页",  
+      "iconPath": "/image/index.png",
+      "selectedIconPath": "/image/index_action.png"
+    },{
+      "pagePath": "pages/earnings/earnings",
+      "text": "作品",
+      "iconPath": "/image/product.png",
+      "selectedIconPath": "/image/porduct_action.png"
+    },{
+      "pagePath": "pages/percenter/percenter",
+      "text": "我的",
+      "iconPath": "/image/mine.png",
+      "selectedIconPath": "/image/mine_actiong.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

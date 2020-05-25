@@ -1,0 +1,17 @@
+/* pages/rex/rex.wxss */
+.login_method_left{
+    font-size: 20rpx;
+    color: #000000;
+    width: 500rpx;
+    
+}
+.login_method_right{
+    font-size: 20rpx;
+}
+.fontt{
+  font-size: 24rpx;
+}
+.widhs{
+  width: 330px;
+  font-size:15px; 
+}
